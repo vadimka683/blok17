@@ -13,5 +13,5 @@ int main() {
 	int* ap = &a;
 	int* bp = &b;
 	swap_a_b(ap, bp);
-	cout << a << b;
+	cout << a << " " << b;
 }
