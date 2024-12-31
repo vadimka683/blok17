@@ -18,14 +18,16 @@ bool sub(const char* a, const char* b) {
 				}
 			}
 		}
-		i++;
+		else {
+			i++;
+		}
 	}
 	return false;
 }
 
 int main() {
-	const char* a = "Hello world";
-	const char* b = "wor";
+	const char* a = "1231235";
+	const char* b = "1235";
 	const char* c = "banana";
 	if (sub(a, b)) { cout << "true\n"; }
 	else { cout << "false\n"; }
